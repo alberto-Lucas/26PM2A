@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppAnimacao.MainPage">
+    <StackLayout>
+        <StackLayout VerticalOptions="CenterAndExpand">
+            <Image x:Name="imgTeste"
+                   Source="imgglobe.png"
+                   HeightRequest="100"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal"
+                     HorizontalOptions="Center"
+                     VerticalOptions="End">
+            <Button Text="Girar Direita"
+                    Clicked="btnGirarDir_Clicked"/>
+            <Button Text="Girar Esquerda"
+                    Clicked="btnGirarEsq_Clicked"/>
+            <Button Text="Girar Vertical"
+                    Clicked="btnGirarVer_Clicked"/>
+            <Button Text="Girar Horizontal"
+                    Clicked="btnGirarHor_Clicked"/>
+
+            <Button Text="Zoom +"
+                    Clicked="btnZoomMais_Clicked"/>
+            <Button Text="Zoom -"
+                    Clicked="btnZoomMenos_Clicked"/>
+
+            <Button Text="Tremer"
+                    Clicked="btnTremer_Clicked"/>
+
+            <Button Text="Opacidade"
+                    Clicked="btnOpacidade_Clicked"/>
+
+            <Button Text="Combo"
+                    Clicked="btnCombo_Clicked"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
