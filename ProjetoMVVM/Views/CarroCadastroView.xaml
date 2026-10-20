@@ -5,6 +5,10 @@
              Title="CarroCadastroView">
     <ScrollView>
         <StackLayout Padding="15">
+            <Button Text="Voltar"
+                    Command="{Binding VoltarCommand}"/>
+
+            <StackLayout Padding="10"/>
             <Label Text="Cadastrar"
                FontSize="30"
                HorizontalTextAlignment="Center"/>

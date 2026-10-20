@@ -14,6 +14,10 @@
                    HorizontalTextAlignment="Center"/>
 
             <StackLayout Padding="10"/>
+            <Label Text="Id:"/>
+            <Label Text="{Binding Id}"/>
+
+            <StackLayout Padding="10"/>
             <Label Text="Marca:"/>
             <Label Text="{Binding Marca}"/>
 

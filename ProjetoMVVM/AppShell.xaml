@@ -10,7 +10,7 @@
 
     <ShellContent
         Title="Home"
-        ContentTemplate="{DataTemplate views:CarroCadastroView}"
-        Route="MainPage" />
+        ContentTemplate="{DataTemplate views:CarroListaView}"
+        Route="CarroListaView" />
 
 </Shell>
